@@ -30,4 +30,9 @@ class Griffon extends ArmeeHumaine
 
     }
 
+    public function __destruct()
+    {
+         $messageMort = "Muaargh";
+    }
+
 }

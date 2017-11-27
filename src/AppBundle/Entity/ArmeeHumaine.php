@@ -151,7 +151,8 @@ class ArmeeHumaine
 
         return
                 "Arme principale : ".$this->armePrincipale.
-                "Armure : ".$this->armure;
+                ", et une ".
+                "armure : ".$this->armure.".";
 
     }
     
